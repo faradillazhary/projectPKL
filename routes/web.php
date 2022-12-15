@@ -16,7 +16,7 @@ use App\Http\Controllers\TbMProjectController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('project');
 });
 
 Route::resource('client', TbMClientController::class);
